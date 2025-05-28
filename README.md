@@ -22,7 +22,6 @@ This can also be assigned to specific application if you dont want it to be Orga
 - Redirected to Microsoft Identity Platform (MSA).
 - On successful sign-in, a user account is created in the Entra tenant.
 
-📸 _Screenshot: IDP configuration in Entra ID_
 ![IDP Config](images/firsttime.png)
 
 ---
@@ -33,7 +32,10 @@ This can also be assigned to specific application if you dont want it to be Orga
 - Entra ID **automatically detects** the domain (`@outlook.com`) using HRD.
 - Redirects the user straight to MSA login without any manual selection.
 
-📸 _Screenshot: HRD-based automatic redirection_
+Screenshot: HRD-based automatic redirection
+
+![HRD Flow login](images/sign-in.png)
+
 ![HRD Flow](images/redirect.png)
 
 ---
