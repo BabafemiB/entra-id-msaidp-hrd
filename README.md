@@ -7,7 +7,11 @@ This repository documents how Microsoft Account (MSA) functions as an external i
 ## Concept
 
 When a user signs in using a **Microsoft Account** (e.g., Outlook.com) via "Sign in with Microsoft", Entra ID leverages **Home Realm Discovery (HRD)** to automatically redirect future login attempts to the correct identity provider.
+The screenshot below shows that HRD is configured to fucntion within the Organization
+![HRD Setup](images/confirm-hrd.png)
 
+This can also be assigned to specific application if you dont want it to be Organization based
+![HRD for Application](images/assigned-application.png)
 ---
 
 ## User Authentication Flow
@@ -19,7 +23,7 @@ When a user signs in using a **Microsoft Account** (e.g., Outlook.com) via "Sign
 - On successful sign-in, a user account is created in the Entra tenant.
 
 📸 _Screenshot: IDP configuration in Entra ID_
-![IDP Config](images/idp-config.png)
+![IDP Config](images/firsttime.png)
 
 ---
 
@@ -30,7 +34,7 @@ When a user signs in using a **Microsoft Account** (e.g., Outlook.com) via "Sign
 - Redirects the user straight to MSA login without any manual selection.
 
 📸 _Screenshot: HRD-based automatic redirection_
-![HRD Flow](images/hrd-flow.png)
+![HRD Flow](images/redirect.png)
 
 ---
 
@@ -48,7 +52,7 @@ When a user signs in using a **Microsoft Account** (e.g., Outlook.com) via "Sign
 |-------------|-------------|
 | `README.md` | This high-level overview of the login flow |
 | `images/`   | Screenshots of the IDP setup, HRD flow, and user experience |
-| `docs/`     | (Optional) Deeper breakdowns, logs, or test cases |
+
 
 ---
 
