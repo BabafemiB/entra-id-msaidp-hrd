@@ -42,6 +42,8 @@ Screenshots: HRD-based automatic redirection
 
 ![HRD Flow](images/redirect.png)
 
+![HRD live](images/live-redirected.png)
+
 ---
 
 ## What This Proves
