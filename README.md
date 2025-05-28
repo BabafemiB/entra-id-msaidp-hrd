@@ -22,7 +22,7 @@ This can also be assigned to specific application if you dont want it to be Orga
 - Redirected to Microsoft Identity Platform (MSA).
 - On successful sign-in, a user account is created in the Entra tenant.
 
-Screenshots: HRD-based automatic redirection
+Screenshots: first time sign up
 
 ![user flow](images/userflow.png)
 
